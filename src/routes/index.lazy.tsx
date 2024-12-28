@@ -139,7 +139,7 @@ function HomeScreen() {
                         </div>
                       </div>
                       <Link
-                        href={service.data.url}
+                        to={service.data.homepage}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block"
@@ -149,7 +149,7 @@ function HomeScreen() {
                         </Button>
                       </Link>
                       <Link
-                        href={service.data.homepage}
+                        to={service.data.html_url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block mt-2"
