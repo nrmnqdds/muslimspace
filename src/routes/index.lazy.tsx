@@ -117,11 +117,9 @@ function HomeScreen() {
                 >
                   <div className="p-6">
                     <div className="absolute top-6 left-6">
-                      <div className="bg-black rounded-lg p-2">
-                        <span className="text-2xl font-bold">
-                          {service.data.name}
-                        </span>
-                      </div>
+                      <span className="text-black text-2xl font-bold">
+                        {service.data.name}
+                      </span>
                     </div>
                     <div className="max-w-xs mt-20">
                       <div
