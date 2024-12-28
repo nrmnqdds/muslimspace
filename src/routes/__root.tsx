@@ -1,18 +1,25 @@
-import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
+import SlackIntro from "@/components/home/intro";
+import Navbar from "@/components/shared/navbar";
+import { Outlet, createRootRoute } from "@tanstack/react-router";
+import { useState } from "react";
+
+const RootComponent = () => {
+  const [animationEnd, setAnimationEnd] = useState(false);
+
+  return (
+    <>
+      <SlackIntro
+        animationEnd={animationEnd}
+        setAnimationEnd={setAnimationEnd}
+      />
+      <div className="bg-black overscroll-none">
+        <Navbar />
+        <Outlet />
+      </div>
+    </>
+  );
+};
 
 export const Route = createRootRoute({
-	component: () => (
-		<>
-			<div className="p-2 flex gap-2">
-				<Link to="/" className="[&.active]:font-bold">
-					Home
-				</Link>{" "}
-				<Link to="/about" className="[&.active]:font-bold">
-					About
-				</Link>
-			</div>
-			<hr />
-			<Outlet />
-		</>
-	),
+  component: RootComponent,
 });

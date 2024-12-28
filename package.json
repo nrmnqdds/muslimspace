@@ -12,9 +12,15 @@
   "dependencies": {
     "@tanstack/react-query": "^5.60.6",
     "@tanstack/react-router": "^1.87.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "motion": "^11.15.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-helmet-async": "^2.0.5"
+    "react-helmet-async": "^2.0.5",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
