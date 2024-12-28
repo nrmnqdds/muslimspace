@@ -10,8 +10,9 @@
     "format": "biome format --write ./src/"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.60.6",
-    "@tanstack/react-router": "^1.87.1",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@tanstack/react-query": "^5.62.11",
+    "@tanstack/react-router": "^1.92.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.469.0",
@@ -20,25 +21,26 @@
     "react-dom": "19.0.0",
     "react-helmet-async": "^2.0.5",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@rsbuild/core": "1.1.4",
+    "@rsbuild/core": "1.1.13",
     "@rsbuild/plugin-babel": "1.0.3",
-    "@rsbuild/plugin-image-compress": "1.0.2",
+    "@rsbuild/plugin-image-compress": "1.1.0",
     "@rsbuild/plugin-node-polyfill": "^1.2.0",
-    "@rsbuild/plugin-react": "1.0.7",
-    "@rsbuild/plugin-type-check": "1.0.1",
-    "@tanstack/router-plugin": "^1.86.0",
-    "@types/node": "^22.9.1",
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
+    "@rsbuild/plugin-react": "1.1.0",
+    "@rsbuild/plugin-type-check": "1.2.0",
+    "@tanstack/router-plugin": "^1.91.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
     "autoprefixer": "^10.4.20",
-    "babel-plugin-react-compiler": "19.0.0-beta-0dec889-20241115",
+    "babel-plugin-react-compiler": "19.0.0-beta-b2e8e9c-20241220",
     "postcss": "^8.4.49",
     "postcss-loader": "^8.1.1",
-    "tailwindcss": "^3.4.15",
-    "typescript": "^5.6.3"
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
   }
 }

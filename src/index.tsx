@@ -5,18 +5,18 @@ import "./index.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const app = (
-  <HelmetProvider>
-    <React.StrictMode>
-      <App />
-      <Helmet>
-        <title>QudStack</title>
-      </Helmet>
-    </React.StrictMode>
-  </HelmetProvider>
+	<HelmetProvider>
+		<React.StrictMode>
+			<App />
+			<Helmet>
+				<title>MuslimSpace</title>
+			</Helmet>
+		</React.StrictMode>
+	</HelmetProvider>
 );
 
 const rootEl = document.querySelector("#root");
 
 if (rootEl) {
-  ReactDOM.hydrateRoot(rootEl, app);
+	ReactDOM.hydrateRoot(rootEl, app);
 }

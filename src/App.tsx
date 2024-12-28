@@ -1,4 +1,4 @@
-import { QueryProvider } from "@/components/providers/query-provider";
+import { QueryProvider } from "@src/components/providers/query-provider";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 
